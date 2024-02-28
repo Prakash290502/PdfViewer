@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.label-style{
+  color: black !important;
+}
+
+
+.textarea {
+  width: 650px;
+  height: 200px;
+  border-color: #c4c4c4;
+  border-width: 1px;
+  border-style: solid;
+  outline: none; /* Remove default focus outline */
+}
+
+.textarea-focused {
+  width: 650px;
+  height: 200px;
+  border-color: #00bcd4; /* Change border color when focused */
+  border-width: 2px;
+  border-style: solid;
+  outline: none; /* Remove default focus outline */
+}
